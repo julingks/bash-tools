@@ -25,6 +25,26 @@ unset foo
 echo $foo # 아무것도 출력안됨
 
 
+# 값 할당
+foo=1
+bar=$foo
+echo $bar
 
+# 공백값을 넣고 싶다면 따움표로 묶음
+foo="x y z"
+echo $foo
 
+# 때로는 {}로 감싸야 한다. 배열이나 변수 명령을 위해서
+echo ${foo}   # x y z 출력
+
+# 배열을 선언할 필요는 없다. 모든 변수가 배열이다.
+
+foo[0]="first"
+foo[1]="second"
+
+echo ${foo[1]}  # 인덱스 1의 값을 출력 second
+
+foo[0]="one"
+foo[1]="two"
+echo $foo # 첫번째 인덱스의 값을 출력한다.  one
 
