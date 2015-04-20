@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 변수 
+
 # $1은 첫번째 argument:
 echo $1
 
