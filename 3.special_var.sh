@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -v
 
 # 특별한 변수
 

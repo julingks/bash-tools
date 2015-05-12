@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -v
 
 # 배열 
 
@@ -13,6 +14,7 @@ array=(a b c)
 echo $array      # print a
 echo ${array[@]} # print a b c
 echo ${array[*]} # print a b c
+echo ${#array[@]} # print 3
 
 # 배열을 복사하기 위해서 @를 사용한다. 그리고 quotes(")로 감싸준다.
 foo=(a b c)

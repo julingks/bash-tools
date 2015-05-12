@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -v
 
 # 변수의 연산
 
