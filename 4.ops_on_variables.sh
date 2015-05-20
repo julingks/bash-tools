@@ -33,6 +33,7 @@ echo ${minipath##*/bin}   # :/sbin
 
 
 # %연산은 동일합니다. 다만prefix가 아니라 suffix입니다.
+# %%는 가장 긴것을 지움
 
 minipath="/usr/bin:/bin:/sbin"
 echo ${minipath%/usr*}     # 아무것도 출력 안됨
