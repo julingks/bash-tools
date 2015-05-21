@@ -3,6 +3,9 @@
 ## Links for Study
 * [http://matt.might.net/articles/bash-by-example](http://matt.might.net/articles/bash-by-example)
 
+## Awesome Shell
+* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
+
 ## Shell Built-In Commands
 
 * builtin, !, %, ., :, @, {, }, alias, alloc, bg, bind, bindkey, break, breaksw, builtins, case, cd, chdir,
