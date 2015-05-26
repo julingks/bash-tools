@@ -44,3 +44,5 @@ echo ${foo}       # 30 출력
 echo ${bar}       # 출력 없음
 
 # ? 연산은 변수가 설정되지 않으면특정 메시지와 함께 프로그램을 크래시 시킨다.
+
+echo ${l?} # 출력 l: parameter null or not set
