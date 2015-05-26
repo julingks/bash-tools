@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -v
 
-# 변수의 연산
+#############################
+#      변수에서의 연산      #
+#############################
 
 # "/" 연산은 문자열 교체
 # 문자열을 교체하기 위해서는 / 를 사용한다.
@@ -40,4 +42,18 @@ echo ${minipath%/usr*}     # 아무것도 출력 안됨
 echo ${minipath%/bin*}     # /usr/bin:
 echo ${minipath%%/bin*}    # /usr
 
+# string manipulation 
 
+# 연산자 #은 문자열에서 문자의 수를 센다.
+#            또는 배열에서 요소의 수를 센다.
+
+ARRAY=(a b c)
+echo ${#ARRAY}   # 3 출력
+
+# 스트링을 잘라내는 것도 가능하다
+string="I'm a fan of dogs."
+echo ${string:6:3}     # fan을 출력 6(0시작)부터 3개
+
+array=(a b c d e f g h i j)
+echo ${array[@]}       # array 모두 출력 a b c d e f g h i j
+echo ${array[@]:3:2}   # d e를 출력 3(0시작)부터 2개
