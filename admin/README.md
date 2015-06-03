@@ -1,16 +1,32 @@
 # administrator 관련 연습
 
+* id
+    * id 명령어는 현재 사용자의 ID와 유효사용자 ID, 그룹 ID를 보여줍니다
 * $UID, $EUID, $GROUP
-* who, who -m, who -p
+* who, who -m, who -p, whoami
+    * who 는 시스템에 현재 로그인해 있는 모든 사용자를 보여줍니다.
+    * who -m 은 오직 현재 사용자에 대한 정보만 보여줍니다.
+    * whoami는 현재 사용자의 이름을 보여줍니다.
 * logname
+    * logname 은 현재 사용자의 이름을 /var/run/utmp"에서 찾아서 보여줍니다.
 * users 
+    * users는 로그인하고 있는 모든 사용자를 보여줍니다. who -q 와 비슷합니다
 * tty
-* uname -a, uname -m 
-* arch
+    * tty는 현재 사용자의 터미널 이름을 보여줍니다.
+* uname -a
+    * uname 은 시스템 사양(OS, 커널 버전등)을 표준출력으로 보여줍니다. -a 옵션을 주면 자세히 나옵니다.
+* arch, uname -m 
+    * arch 는 시스템 아키텍처를 보여줍니다. (i386 등) uname -m과 동일한 명령어 입니다.
 * uptime
+    * uptime은 시스템이 얼마나 오랫동안 돌고 있었는지 관련 통계와 함께 보여줍니다.
 * nohup
+    * nohup은 사용자가 로그 아웃을 하더라도 명령어가 계속 돌게 해줍니다.
+    * nohup은 스크립트에서 쓸데는 고아가 생기지 않도로고 wait와 같이 써야합니다
 * wait
+    * wait 는 백그라운드로 실행중인 모든 작업이나 옵션으로 주어진 특정 작업번호나 프로세스 아이디가 끝날 때까지 스크립트 실행을 중단시킵니다.
 * ac
+    * ac는 사용자가 로그인해 있던 시간을 보여줍니다
 * last
+    * last는 사용자가 마지막으로 로그인한 시간을 보여줍니다
 * groups
-
+    * groups는 현재 사용자가 속해 있는 그룹을 보여줍니다
