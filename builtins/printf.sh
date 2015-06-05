@@ -24,5 +24,11 @@ printf "%s %s \n" $Message1 $Message2
 
 echo 
 
+Pi12=$(printf "%1.12f" $PI)
+
+echo "Pi를 소수점 12자리만 표시 = $Pi12"
+
+Msg=`printf "%s %s \n" $Message1 $Message2`
+echo $Msg; echo $Msg
 
 

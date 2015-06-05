@@ -1,5 +1,7 @@
 # Shell Built-In Commands
 
+* [https://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/internal.html](https://wiki.kldp.org/HOWTO/html/Adv-Bash-Scr-HOWTO/internal.html)
+
 * builtin, !, %, ., :, @, {, }, alias, alloc, bg, bind, bindkey, break, breaksw, builtins, case, cd, chdir,
 * command, complete, continue, default, dirs, do, done, echo, echotc, elif, else, end, endif, endsw, esac,
 * eval, exec, exit, export, false, fc, fg, filetest, fi, for, foreach, getopts, glob, goto, hash, hashstat,
