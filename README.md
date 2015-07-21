@@ -8,3 +8,5 @@
 ## Awesome Shell
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 
+# Bash For Loop Examples  
+* [http://www.cyberciti.biz/faq/bash-for-loop/](http://www.cyberciti.biz/faq/bash-for-loop/)
